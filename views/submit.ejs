@@ -1,0 +1,15 @@
+<%-include('partials/header') %>
+    <div class='centered mr-5 ml-5'>
+
+
+        <h1 class='display-3'>Secrets</h1>
+        <p class='secret-text secret'>Don't keep your se crets, share them anonymously!</p>
+        <form method="post" action="/submit">
+            <div class='form-group'>
+                <input type="text" class="form-control text-center" name="secret" placeholder="What's your secret" />
+            </div>
+            <input type="submit" class='btn btn-dark mt-3' />
+        </form>
+
+    </div>
+<%-include('partials/footer') %>
