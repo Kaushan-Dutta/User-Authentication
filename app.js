@@ -188,5 +188,5 @@ app.post("/submit", (req, res) => {
 });
 
 app.listen(2000, () => {
-  console.log("Server started...");
+  console.log("Server started..");
 });
